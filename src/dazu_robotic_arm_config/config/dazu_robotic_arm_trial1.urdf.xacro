@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dazu_robotic_arm_trial1">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import dazu_robotic_arm_trial1 urdf file -->
+    <xacro:include filename="$(find dazu_robotic_arm_trial1)/urdf/dazu_robotic_arm_trial1.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="dazu_robotic_arm_trial1.ros2_control.xacro" />
+
+
+    <!-- <xacro:dazu_robotic_arm_trial1_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/> -->
+
+</robot>

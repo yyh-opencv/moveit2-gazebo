@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: dazu_robotic_arm_trial1
+    relative_path: urdf/dazu_robotic_arm_trial1.urdf
+  srdf:
+    relative_path: config/dazu_robotic_arm_trial1.srdf
+  package_settings:
+    author_name: zero
+    author_email: 2840576630@qq.com
+    generated_timestamp: 1728462337
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

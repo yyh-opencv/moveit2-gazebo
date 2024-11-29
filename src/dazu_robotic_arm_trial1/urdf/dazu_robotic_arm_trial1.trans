@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="dazu_robotic_arm_trial1_transmission" >
+
+     <transmission name="elfin_joint1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_1">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_1_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="elfin_joint2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_2">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_2_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+    
+    <transmission name="elfin_joint3_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_3">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_3_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+    
+    <transmission name="elfin_joint4_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_4">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_4_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+    
+    <transmission name="elfin_joint5_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_5">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_5_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+    
+    <transmission name="elfin_joint6_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Joint_6">
+        <hardwareInterface>position</hardwareInterface>
+      </joint>
+      <actuator name="Joint_6_motor">
+        <hardwareInterface>position</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+  </xacro:macro>
+
+</robot>
